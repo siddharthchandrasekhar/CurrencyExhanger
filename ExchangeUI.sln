@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeUI", "ExchangeUI\ExchangeUI.csproj", "{3655CAF9-3883-4002-A966-87FB23A8D9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "DataService\DataService.csproj", "{E9F8F9C7-7187-4340-99A0-8F65C90531EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3655CAF9-3883-4002-A966-87FB23A8D9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3655CAF9-3883-4002-A966-87FB23A8D9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3655CAF9-3883-4002-A966-87FB23A8D9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3655CAF9-3883-4002-A966-87FB23A8D9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F8F9C7-7187-4340-99A0-8F65C90531EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F8F9C7-7187-4340-99A0-8F65C90531EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F8F9C7-7187-4340-99A0-8F65C90531EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F8F9C7-7187-4340-99A0-8F65C90531EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA4510A6-E168-4822-B465-46110E93F898}
+	EndGlobalSection
+EndGlobal
