@@ -23,6 +23,8 @@ namespace DataService
         {
             try
             {
+                var fromDateValue = fromDate.ToString("yyyy-MM-dd");
+                var toDateValue = toDate.ToString("yyyy-MM-dd");
                 // connect to database
                 using (IDbConnection conn = new SQLiteConnection(LoadConnectionString()))
                 {
@@ -30,8 +32,8 @@ namespace DataService
                     var output = conn.Query<Rate>($"select * from Rates where code = '{code}'").ToList();
 
                     var records = output.Where(
-                        t => t.EffectiveDate.Date > fromDate &&
-                        t.EffectiveDate.Date < toDate).ToList();
+                        t => t.EffectiveDate.Date >= fromDate &&
+                        t.EffectiveDate.Date <= toDate).ToList();
 
                     if (records.Any())
                     {
