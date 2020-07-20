@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccess.cs" />
+    <Compile Include="ExchangeRatesSeries.cs" />
     <Compile Include="IExhangeService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ExchangeService.cs" />
